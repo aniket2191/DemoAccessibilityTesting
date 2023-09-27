@@ -1,0 +1,40 @@
+pipeline
+{ 
+	agent any
+	
+	stages
+	{
+		stage("Build")
+		{
+			steps
+			{
+			echo "Building is successfully done...."
+			bat "mvn -f  D:/E_Git_Traingings_Ecplise_workspace/DemoForAccessibilityTesting/pom.xml  clean"
+			}
+		}
+		stage("Test")
+		{
+			steps
+			{
+			echo "Testing is successfully done...."
+			bat "mvn -f  D:/E_Git_Traingings_Ecplise_workspace/DemoForAccessibilityTesting/pom.xml  test"
+			}
+		}
+		stage("Compile")
+		{
+			steps
+			{
+			echo "Compiling is successfully done...."
+			bat "mvn  -f  D:/E_Git_Traingings_Ecplise_workspace/DemoForAccessibilityTesting/pom.xml  compile"
+			}
+		}
+		stage("Deploy")
+		{
+			steps
+			{
+			echo "Deploying is successfully done...."		
+			}
+		}
+		
+	}
+}
