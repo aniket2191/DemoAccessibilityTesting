@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">153,915</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.ally.TestCases.ElliciumAllyTest</td><td><a href="#m0">elliciumAllyTest</a></td><td rowspan="1">1695797692270</td><td rowspan="1">132581</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.ally.TestCases.ElliciumAllyTest</td><td><a href="#m1">elliciumTitleCheck</a></td><td rowspan="1">1695797824876</td><td rowspan="1">6507</td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">com.ally.TestCases.ElliciumAllyTest#elliciumAllyTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Found 13 accessibility violations:
+1) ARIA role must be appropriate for the element: https://dequeuniversity.com/rules/axe/3.1/aria-allowed-role?application=axeAPI
+  a) [&quot;iframe[title=\&quot;reCAPTCHA\&quot;]&quot;]
+    Fix any of the following:
+      role presentation  is not allowed for given element
+
+
+  b) [&quot;iframe[title=\&quot;reCAPTCHA\&quot;]&quot;,&quot;#recaptcha-anchor-label&quot;]
+    Fix any of the following:
+      role presentation  is not allowed for given element
+
+
+2) Certain ARIA roles must contain particular children: https://dequeuniversity.com/rules/axe/3.1/aria-required-children?application=axeAPI
+  a) [&quot;.iti__selected-flag&quot;]
+    Fix any of the following:
+      Required ARIA child role not present: textbox
+
+
+3) Buttons must have discernible text: https://dequeuniversity.com/rules/axe/3.1/button-name?application=axeAPI
+  a) [&quot;a[aria-controls=\&quot;b57845a1eb852f4b2\&quot;]&quot;]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element has a value attribute and the value attribute is empty
+      Element has no value attribute or the value attribute is empty
+      Element does not have inner text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element&apos;s default semantics were not overridden with role=&quot;presentation&quot;
+      Element&apos;s default semantics were not overridden with role=&quot;none&quot;
+      Element has no title attribute or the title attribute is empty
+
+
+4) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI
+  a) [&quot;#menu-item-125 &gt; .awb-menu__main-a.awb-menu__main-a_regular[href=\&quot;#\&quot;] &gt; .menu-text&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.69 (foreground color: #ffffff, background color: #9b9ea1, font size: 12.0pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  b) [&quot;#menu-item-1680 &gt; .awb-menu__main-a.awb-menu__main-a_regular[href=\&quot;#\&quot;] &gt; .menu-text&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.69 (foreground color: #ffffff, background color: #9b9ea1, font size: 12.0pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  c) [&quot;#menu-item-126 &gt; .awb-menu__main-a.awb-menu__main-a_regular[href=\&quot;#\&quot;] &gt; .menu-text&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.69 (foreground color: #ffffff, background color: #9b9ea1, font size: 12.0pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  d) [&quot;#menu-item-490 &gt; .awb-menu__main-a.awb-menu__main-a_regular[href=\&quot;#\&quot;] &gt; .menu-text&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.69 (foreground color: #ffffff, background color: #9b9ea1, font size: 12.0pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  e) [&quot;#menu-item-836 &gt; .awb-menu__main-a.awb-menu__main-a_regular &gt; .menu-text&quot;]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.69 (foreground color: #ffffff, background color: #9b9ea1, font size: 12.0pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+5) IDs of active elements must be unique: https://dequeuniversity.com/rules/axe/3.1/duplicate-id-active?application=axeAPI
+  a) [&quot;.fusion-builder-nested-column-35 &gt; .fusion-flex-align-items-center.fusion-content-nowrap.fusion-content-layout-row &gt; .fusion-form-email-field.fusion-form-field.fusion-form-label-above &gt; .fusion-form-input-with-icon &gt; .fusion-form-input[name=\&quot;insert_your_email\&quot;][placeholder=\&quot;Enter\\ your\\ email\&quot;]&quot;]
+    Fix any of the following:
+      Document has active elements with the same id attribute: insert_your_email
+
+
+6) IDs used in ARIA and labels must be unique: https://dequeuniversity.com/rules/axe/3.1/duplicate-id-aria?application=axeAPI
+  a) [&quot;.fusion-tabs-1 &gt; .nav &gt; .nav-tabs.nav-justified[role=\&quot;tablist\&quot;] &gt; .active[role=\&quot;presentation\&quot;] &gt; .tab-link[aria-controls=\&quot;tab-b594b0a435affc4196a\&quot;][href$=\&quot;#tab-b594b0a435affc4196a\&quot;]&quot;]
+    Fix any of the following:
+      Document has multiple elements referenced with ARIA with the same id attribute: fusion-tab-3eframeworkfordevelopmentprojects
+
+
+  b) [&quot;li[role=\&quot;presentation\&quot;]:nth-child(2) &gt; .tab-link[aria-controls=\&quot;tab-092ff987a53a333dc0d\&quot;][href$=\&quot;#tab-092ff987a53a333dc0d\&quot;]&quot;]
+    Fix any of the following:
+      Document has multiple elements referenced with ARIA with the same id attribute: fusion-tab-4pmodelforagiledelivery
+
+
+  c) [&quot;li[role=\&quot;presentation\&quot;]:nth-child(3) &gt; .tab-link[aria-controls=\&quot;tab-7e6b84d8b5dfbb4abea\&quot;][href$=\&quot;#tab-7e6b84d8b5dfbb4abea\&quot;]&quot;]
+    Fix any of the following:
+      Document has multiple elements referenced with ARIA with the same id attribute: fusion-tab-sustain&amp;optimizeframework
+
+
+7) id attribute value must be unique: https://dequeuniversity.com/rules/axe/3.1/duplicate-id?application=axeAPI
+  a) [&quot;.fusion-mobile-tab-nav.nav:nth-child(1) &gt; .nav-tabs.nav-justified[role=\&quot;tablist\&quot;] &gt; .active[role=\&quot;presentation\&quot;] &gt; .tab-link[aria-controls=\&quot;tab-b594b0a435affc4196a\&quot;][href$=\&quot;#tab-b594b0a435affc4196a\&quot;]&quot;]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  b) [&quot;.fusion-mobile-tab-nav.nav:nth-child(3) &gt; .nav-tabs.nav-justified[role=\&quot;tablist\&quot;] &gt; li[role=\&quot;presentation\&quot;] &gt; .tab-link[aria-controls=\&quot;tab-092ff987a53a333dc0d\&quot;][href$=\&quot;#tab-092ff987a53a333dc0d\&quot;]&quot;]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  c) [&quot;.fusion-mobile-tab-nav.nav:nth-child(5) &gt; .nav-tabs.nav-justified[role=\&quot;tablist\&quot;] &gt; li[role=\&quot;presentation\&quot;] &gt; .tab-link[aria-controls=\&quot;tab-7e6b84d8b5dfbb4abea\&quot;][href$=\&quot;#tab-7e6b84d8b5dfbb4abea\&quot;]&quot;]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  d) [&quot;.fusion-builder-nested-column-23&quot;]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+8) Headings must not be empty: https://dequeuniversity.com/rules/axe/3.1/empty-heading?application=axeAPI
+  a) [&quot;#toggle_b57845a1eb852f4b2&quot;]
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+
+
+9) Heading levels should only increase by one: https://dequeuniversity.com/rules/axe/3.1/heading-order?application=axeAPI
+  a) [&quot;#toggle_b57845a1eb852f4b2&quot;]
+    Fix any of the following:
+      Heading order invalid
+
+
+10) Form elements must have labels: https://dequeuniversity.com/rules/axe/3.1/label?application=axeAPI
+  a) [&quot;#wpforms-2243-field_12&quot;]
+    Fix all of the following:
+      Form element has explicit &lt;label&gt; that is hidden
+
+
+  b) [&quot;#wpforms-2243-field_5&quot;]
+    Fix all of the following:
+      Form element has explicit &lt;label&gt; that is hidden
+
+
+  c) [&quot;#wpforms-2243-field_3&quot;]
+    Fix all of the following:
+      Form element has explicit &lt;label&gt; that is hidden
+
+
+  d) [&quot;#wpforms-2243-field_2&quot;]
+    Fix all of the following:
+      Form element has explicit &lt;label&gt; that is hidden
+
+
+  e) [&quot;#wpforms-2243-field_7&quot;]
+    Fix all of the following:
+      Form element has explicit &lt;label&gt; that is hidden
+
+
+  f) [&quot;#wpforms-2243-field_9&quot;]
+    Fix all of the following:
+      Form element has explicit &lt;label&gt; that is hidden
+
+
+  g) [&quot;#wpforms-2243-field_4&quot;]
+    Fix all of the following:
+      Form element has explicit &lt;label&gt; that is hidden
+
+
+  h) [&quot;.wpforms-recaptcha-hidden&quot;]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) &lt;label&gt;
+      Form element does not have an explicit &lt;label&gt;
+      Element has no title attribute or the title attribute is empty
+
+
+  i) [&quot;.fusion-builder-nested-column-35 &gt; .fusion-flex-align-items-center.fusion-content-nowrap.fusion-content-layout-row &gt; .fusion-form-email-field.fusion-form-field.fusion-form-label-above &gt; .fusion-form-input-with-icon &gt; .fusion-form-input[name=\&quot;insert_your_email\&quot;][placeholder=\&quot;Enter\\ your\\ email\&quot;]&quot;]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) &lt;label&gt;
+      Form element does not have an explicit &lt;label&gt;
+      Element has no title attribute or the title attribute is empty
+
+
+11) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI
+  a) [&quot;.fusion-builder-column-31 &gt; .fusion-column-inner-bg.hover-type-zoomin &gt; .fusion-column-anchor[rel=\&quot;noopener\\ noreferrer\&quot;][target=\&quot;_blank\&quot;]&quot;]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element&apos;s default semantics were not overridden with role=&quot;presentation&quot;
+      Element&apos;s default semantics were not overridden with role=&quot;none&quot;
+
+
+  b) [&quot;.fusion-builder-column-32 &gt; .fusion-column-inner-bg.hover-type-zoomin &gt; .fusion-column-anchor[rel=\&quot;noopener\\ noreferrer\&quot;][target=\&quot;_blank\&quot;]&quot;]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element&apos;s default semantics were not overridden with role=&quot;presentation&quot;
+      Element&apos;s default semantics were not overridden with role=&quot;none&quot;
+
+
+  c) [&quot;.fusion-builder-column-33 &gt; .fusion-column-inner-bg.hover-type-zoomin &gt; .fusion-column-anchor&quot;]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element&apos;s default semantics were not overridden with role=&quot;presentation&quot;
+      Element&apos;s default semantics were not overridden with role=&quot;none&quot;
+
+
+12) Page must contain a level-one heading: https://dequeuniversity.com/rules/axe/3.1/page-has-heading-one?application=axeAPI
+  a) [&quot;html&quot;]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+  b) [&quot;iframe[title=\&quot;reCAPTCHA\&quot;]&quot;,&quot;html&quot;]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+13) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+  a) [&quot;html&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+ expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.ally.TestCases.ElliciumAllyTest.elliciumAllyTest(ElliciumAllyTest.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.ally.TestCases.ElliciumAllyTest#elliciumTitleCheck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
