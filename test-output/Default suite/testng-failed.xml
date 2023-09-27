@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ally.TestCases.ElliciumAllyTest">
+      <class name="com.ally.TestCases.ElliciumAllyTesting">
         <methods>
-          <include name="elliciumAllyTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="elliciumAllyPageTest"/>
         </methods>
-      </class> <!-- com.ally.TestCases.ElliciumAllyTest -->
+      </class> <!-- com.ally.TestCases.ElliciumAllyTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

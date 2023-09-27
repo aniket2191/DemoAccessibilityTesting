@@ -3,13 +3,13 @@
 <suite name="Suite">
 
 	<listeners>
-		<listener class-name="com.sauceLabs.Utilities.Demo_ExtentReport">
+		<listener class-name="com.ally.Utilities.Demo_ExtentReport">
 		</listener>
 	</listeners>
 	<test thread-count="5" name="AccessibilityTestingOnChrome">
-	<parameter name="browser" value="edge"/>
+	<parameter name="browser" value="firefox"/>
 		<classes>
-			<class name="com.act.TestCases.ElliciumAllyTest" />
+			<class name="com.ally.TestCases.ElliciumAllyTesting" />
 		</classes>
 		
 	</test> <!-- Test -->

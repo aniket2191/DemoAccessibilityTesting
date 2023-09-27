@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 91.836 s <<< FAILURE! - in TestSuite
+elliciumAllyPageTest(com.ally.TestCases.ElliciumAllyTesting)  Time elapsed: 77.813 s  <<< FAILURE!
+org.openqa.selenium.ScriptTimeoutException: 
+Timed out after 30000 ms
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6c0ca79e-c3d4-4933-ab33-8b68d90db06b, executeAsyncScript {script=var callback = arguments[arguments.length - 1];var context = document;var options = {};var result = { error: '', results: null };axe.run(context, options, function (err, res) {  if (err) {    result.error = err.message;  } else {    result.results = res;  }  callback(result);});, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:58098, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16396, moz:profile: C:\Users\ANIKET~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:58098/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6c0ca79e-c3d4-4933-ab33-8b68d90db06b
+	at com.ally.TestCases.ElliciumAllyTesting.elliciumAllyPageTest(ElliciumAllyTesting.java:43)
+

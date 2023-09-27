@@ -1,0 +1,16 @@
+# Created at 2023-09-27T15:18:02.338
+org.testng.TestNGException: 
+Cannot load class from file: com.demoBlaze.Utilities.Demo_ExtentReport
+	at org.testng.internal.ClassHelper.fileToClass(ClassHelper.java:301)
+	at org.testng.TestNG.configure(TestNG.java:1513)
+	at org.testng.TestNG.configure(TestNG.java:1726)
+	at org.apache.maven.surefire.testng.conf.TestNGMapConfigurator.configure(TestNGMapConfigurator.java:57)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:279)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
