@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-27T15:04:10 IST" name="Suite" finished-at="2023-09-27T15:05:28 IST" duration-ms="77986">
+  <suite started-at="2023-10-03T12:25:09 IST" name="Suite" finished-at="2023-10-03T12:25:53 IST" duration-ms="43677">
     <groups>
     </groups>
-    <test started-at="2023-09-27T15:04:10 IST" name="AccessibilityTestingOnChrome" finished-at="2023-09-27T15:05:28 IST" duration-ms="77986">
+    <test started-at="2023-10-03T12:25:09 IST" name="AccessibilityTestingOnChrome" finished-at="2023-10-03T12:25:53 IST" duration-ms="43677">
       <class name="com.ally.TestCases.ElliciumAllyTesting">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ally.TestCases.ElliciumAllyTesting@32115b28]" started-at="2023-09-27T15:04:10 IST" name="setUp" finished-at="2023-09-27T15:04:15 IST" duration-ms="4671" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ally.TestCases.ElliciumAllyTesting@32115b28]" started-at="2023-10-03T12:25:09 IST" name="setUp" finished-at="2023-10-03T12:25:13 IST" duration-ms="4103" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="elliciumAllyPageTest()[pri:0, instance:com.ally.TestCases.ElliciumAllyTesting@32115b28]" started-at="2023-09-27T15:04:15 IST" name="elliciumAllyPageTest" finished-at="2023-09-27T15:05:13 IST" duration-ms="58311" status="FAIL">
+        <test-method signature="elliciumAllyPageTest()[pri:0, instance:com.ally.TestCases.ElliciumAllyTesting@32115b28]" started-at="2023-10-03T12:25:14 IST" name="elliciumAllyPageTest" finished-at="2023-10-03T12:25:45 IST" duration-ms="31369" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Found 13 accessibility violations:
@@ -120,6 +120,11 @@
 
 
   d) [".fusion-builder-nested-column-23"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  e) [".fusion-builder-column-39 > .fusion-content-nowrap.fusion-content-layout-row.fusion-flex-justify-content-flex-start > .fusion-form-builder.fusion-form-form-wrapper.fusion-form > form[method=\"post\"][action=\"https\\:\\/\\/ellicium\\.com\\/\"] > input[name=\"fusion-form-nonce-1019\"][value=\"\\32 1136a39bd\"][type=\"hidden\"]"]
     Fix any of the following:
       Document has multiple static elements with the same id attribute
 
@@ -349,6 +354,11 @@
       Document has multiple static elements with the same id attribute
 
 
+  e) [".fusion-builder-column-39 > .fusion-content-nowrap.fusion-content-layout-row.fusion-flex-justify-content-flex-start > .fusion-form-builder.fusion-form-form-wrapper.fusion-form > form[method=\"post\"][action=\"https\\:\\/\\/ellicium\\.com\\/\"] > input[name=\"fusion-form-nonce-1019\"][value=\"\\32 1136a39bd\"][type=\"hidden\"]"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
 8) Headings must not be empty: https://dequeuniversity.com/rules/axe/3.1/empty-heading?application=axeAPI
   a) ["#toggle_b57845a1eb852f4b2"]
     Fix any of the following:
@@ -505,11 +515,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- elliciumAllyPageTest -->
-        <test-method signature="elliciumTitleCheck()[pri:0, instance:com.ally.TestCases.ElliciumAllyTesting@32115b28]" started-at="2023-09-27T15:05:13 IST" name="elliciumTitleCheck" finished-at="2023-09-27T15:05:17 IST" duration-ms="3545" status="PASS">
+        <test-method signature="elliciumTitleCheck()[pri:0, instance:com.ally.TestCases.ElliciumAllyTesting@32115b28]" started-at="2023-10-03T12:25:45 IST" name="elliciumTitleCheck" finished-at="2023-10-03T12:25:50 IST" duration-ms="5442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- elliciumTitleCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ally.TestCases.ElliciumAllyTesting@32115b28]" started-at="2023-09-27T15:05:17 IST" name="tearDown" finished-at="2023-09-27T15:05:28 IST" duration-ms="11174" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ally.TestCases.ElliciumAllyTesting@32115b28]" started-at="2023-10-03T12:25:50 IST" name="tearDown" finished-at="2023-10-03T12:25:53 IST" duration-ms="2559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

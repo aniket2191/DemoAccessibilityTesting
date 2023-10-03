@@ -82,12 +82,10 @@ public class ElliciumAllyTesting extends TestBase{
 		}
 		else
 		{
-			AXE.writeResults("ElliciumAllyTestResult", jObj);
+			AXE.writeResults("ElliciumAllyTestResult1", jObj);
 			
 			 //File file = new File("D:\\E_Git_Traingings_Ecplise_workspace\\DemoForAccessibilityTesting\\TestData\\Test.csv");
-			  
-	            
-	  
+			   
 	           // String csvString = CDL.toString(violations);
 	            //FileUtils.writeStringToFile(file, csvString);	
 			
