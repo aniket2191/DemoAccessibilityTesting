@@ -14,6 +14,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.json.Json;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -82,6 +83,7 @@ public class ElliciumAllyTesting extends TestBase{
 		}
 		else
 		{
+			//AXE.writeResults("AR", jObj.);
 			AXE.writeResults("ElliciumAllyTestResult1", jObj);
 			
 			 //File file = new File("D:\\E_Git_Traingings_Ecplise_workspace\\DemoForAccessibilityTesting\\TestData\\Test.csv");
